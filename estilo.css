@@ -1,0 +1,140 @@
+.collapse  ul li:hover {
+  border-bottom: 3px solid #00bac6;
+}
+.prim-texto h1{
+    font-family: "Rosellinda Alyamore";
+    color: #3a7897;
+    font-size: 70px;
+}
+.prim-texto p{
+    color: #d29200;
+    font-size: 18px;
+}
+.seg-texto h1{
+    color: white;
+    font-size: 90px;
+    font-family: "Rosellinda Alyamore";
+     }
+.seg-texto{
+    color: white;
+         }
+  .terc-texto{
+    color: #3a7897;
+  }
+  .ter-texto{
+    color: black;
+  }
+.row area{
+    Background-color: #3a7897;
+    width:  100%;
+}
+.imagens-finais-1{
+  width: 103%; 
+  height:100%;
+ 
+}
+.imagens-finais-2{
+  width: 103%; 
+  height:100%;
+  margin-left: -14px;
+}
+.form-footer h1, input{
+ font-weight: bolder;
+ color: #7a7a7a;
+}
+.form-footer p{
+  color: #7a7a7a;
+  font-size: 20px;
+ }
+ input{
+  width: 30%;
+  border-top: 0px transparent;
+  border-left: transparent;
+  border-right: transparent;
+ }
+ 
+ button, input, optgroup, select, textarea{
+  margin: 10px !important;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+.button {
+  border: 2px solid #7a7a7a;
+  background-color: white;
+  color: #7a7a7a;
+  width: 14%;
+  height: 15%;
+  font-weight: bolder;
+  border-radius: 5px !important;
+  font-size: 18px !important;
+}
+ul li{
+  list-style: none;
+}
+.seta{
+  height: 15px;
+}
+.image{
+  /*opacidade*/
+  opacity: 2;
+  -moz-opacity: 2;
+  filter: alpha(opacity=2);
+  -webkit-filter: opacity(2);
+  /*filtro P/B*/
+  filter: gray;
+  /* IE6-9 */
+  -webkit-filter: grayscale(0%);
+  /* Chrome 19+ & Safari 6+ */
+  /*qualidade*/
+  image-rendering: auto;
+}
+.image:hover{
+  opacity: 1;
+  -moz-opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-filter: opacity(1);
+  filter: none;
+  /* Firefox 10+ */
+  -webkit-filter: grayscale(100%);
+  /* Chrome 19+ & Safari 6+ */
+  image-rendering: auto;
+
+}
+.text-p{
+  text-align: center;
+  margin-top: 60px;
+  line-height: 1.5em;
+  background-color: #3a7897;
+  color: #ffffff;
+  width: 88%;
+  height: 263px;
+  margin-left: 63px;
+  padding-top: 40px;
+}
+.container-coluna{
+  float: revert;
+    text-align: center;
+    overflow: hidden;
+    margin-left: 20%;
+    margin-top: 8px;
+}
+
+.img-footer{
+  width: 27%;
+    float: right;
+    margin-right: 187px;
+    margin-top: 6px;
+}
+/*.button{
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  border: 1px solid black;
+  width: 90px;
+  background-color: #ffffff;
+  float: left;
+  margin-left: 46%;
+  margin-top: 50px;
+
+}*/
